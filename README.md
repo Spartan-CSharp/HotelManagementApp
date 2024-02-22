@@ -23,3 +23,6 @@ The homework from Lesson 8, D Step, of Module 9, Hotel Management App, of the Co
 
 ### Room Type Table
 The homework from Lesson 11, Room Type Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the room types.
+
+### Rooms Table
+The homework from Lesson 12, Rooms Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the rooms.
