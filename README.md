@@ -40,3 +40,6 @@ The homework from Lesson 15, Starter Data, of Module 9, Hotel Management App, of
 
 ### Class Library Setup
 The homework from Lesson 18, Class Library Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a class library and solution for our new project. Put together a simple folder structure for the classes we will be adding.
+
+### Dapper Setup
+The homework from Lesson 19, Dapper Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a Dapper class that will handle reading from and writing to SQL in a simple manner.
