@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFFE3A3E-EFA2-4C82-AAE9-D254750B0EF3}"
+	ProjectSection(SolutionItems) = preProject
+		The App Idea.txt = The App Idea.txt
+		W Step.docx = W Step.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF7C0E51-6E1E-43D5-8B08-EC29FFCC22FA}
+	EndGlobalSection
+EndGlobal
