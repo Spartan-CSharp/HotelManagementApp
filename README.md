@@ -6,3 +6,6 @@ We need to create a minimum viable product (MVP) that will allow the customer to
 
 ### W Step
 The homework from Lesson 4, W Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to walk through the application and pull out the important bits of information. Fully understand what needs to be accomplished.
+
+### O Step
+The homework from Lesson 5, O Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to open up the requirements. Look for what is missing and figure out what is needed. Identify what can be put off for a later version.
