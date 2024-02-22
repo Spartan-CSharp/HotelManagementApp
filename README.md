@@ -35,3 +35,8 @@ The homework from Lesson 14, Bookings Table, of Module 9, Hotel Management App, 
 
 ### Starter Data
 The homework from Lesson 15, Starter Data, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a script that will insert some starter data into our database, so that we have something to test against.
+
+## SQL Data Access Layer
+
+### Class Library Setup
+The homework from Lesson 18, Class Library Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a class library and solution for our new project. Put together a simple folder structure for the classes we will be adding.
