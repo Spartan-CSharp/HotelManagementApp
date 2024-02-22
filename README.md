@@ -29,3 +29,6 @@ The homework from Lesson 12, Rooms Table, of Module 9, Hotel Management App, of 
 
 ### Guests Table
 The homework from Lesson 13, Guests Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the guests of the hotel.
+
+### Bookings Table
+The homework from Lesson 14, Bookings Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the room reservations (bookings).
