@@ -18,3 +18,8 @@ The homework from Lesson 7, L Step, of Module 9, Hotel Management App, of the Co
 
 ### D Step
 The homework from Lesson 8, D Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to lay out the data into groups that will eventually become tables and models. Identify the data relationships and where pieces of data go.
+
+## SQL Database Design
+
+### Room Type Table
+The homework from Lesson 11, Room Type Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the room types.
