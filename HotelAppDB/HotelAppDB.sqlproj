@@ -62,5 +62,6 @@
   <ItemGroup>
     <Build Include="dbo\Tables\RoomTypes.sql" />
     <Build Include="dbo\Tables\Rooms.sql" />
+    <Build Include="dbo\Tables\Guests.sql" />
   </ItemGroup>
 </Project>
