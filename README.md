@@ -11,4 +11,7 @@ The homework from Lesson 4, W Step, of Module 9, Hotel Management App, of the Co
 The homework from Lesson 5, O Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to open up the requirements. Look for what is missing and figure out what is needed. Identify what can be put off for a later version.
 
 ### U Step
-The homework from Lesson 5, O Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to sketch out a basic user interface design. Don't be too detailed, just identify the basics of the pages/forms we will need.
+The homework from Lesson 6, O Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to sketch out a basic user interface design. Don't be too detailed, just identify the basics of the pages/forms we will need.
+
+### L Step
+The homework from Lesson 7, O Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to identify and think through any tricky bits of logic. Think big picture here, not small details. Figure out if you don't know how to do any part of the app.

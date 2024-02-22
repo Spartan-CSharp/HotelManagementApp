@@ -5,6 +5,7 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFFE3A3E-EFA2-4C82-AAE9-D254750B0EF3}"
 	ProjectSection(SolutionItems) = preProject
+		L Step.docx = L Step.docx
 		O Step.docx = O Step.docx
 		The App Idea.txt = The App Idea.txt
 		U Step.docx = U Step.docx
