@@ -8,7 +8,7 @@ using HotelAppLibrary.Models;
 
 namespace HotelAppLibrary.Data
 {
-	public class SqlData
+	public class SqlData : IDatabaseData
 	{
 		private readonly ISqlDataAccess _db;
 		private const string connectionStringName = "SqlDb";
@@ -39,7 +39,6 @@ namespace HotelAppLibrary.Data
 													false).First();
 
 			TimeSpan timeStaying = endDate.Date.Subtract(startDate.Date);
-			int daysStaying = timeStaying.Days;
 
 			List<RoomModel> availableRooms = _db.LoadData<RoomModel, dynamic>("dbo.spRooms_GetAvailableRooms",
 														new { startDate, endDate, roomTypeId },
