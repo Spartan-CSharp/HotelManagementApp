@@ -150,3 +150,7 @@ The homework from Lesson 43, Dapper Setup, of Module 9, Hotel Management App, of
 ### Dependency Injection Setup
 
 The homework from Lesson 44, Dependency Injection Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to design a way that the choice of which database type to use can be set in the appsettings.json file of each UI.
+
+### Get Available Rooms
+
+The homework from Lesson 45, Get Available Rooms, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that gets the available rooms. Add supporting classes and models as necessary.
