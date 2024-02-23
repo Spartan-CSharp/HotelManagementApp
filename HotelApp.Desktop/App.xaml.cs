@@ -40,6 +40,21 @@ namespace HotelApp.Desktop
 
 			services.AddSingleton(config);
 
+			string dbChoice = config.GetValue<string>("DatabaseChoice").ToLower();
+			if ( dbChoice == "sql" )
+			{
+				services.AddTransient<IDatabaseData, SqlData>();
+			}
+			else if ( dbChoice == "sqlite" )
+			{
+				services.AddTransient<IDatabaseData, SqliteData>();
+			}
+			else
+			{
+				// Fallback / Default value
+				services.AddTransient<IDatabaseData, SqlData>();
+			}
+
 			serviceProvider = services.BuildServiceProvider();
 			var mainWindow = serviceProvider.GetService<MainWindow>();
 

@@ -146,3 +146,7 @@ The homework from Lesson 40, Starter Data, of Module 9, Hotel Management App, of
 ### Dapper Setup
 
 The homework from Lesson 43, Dapper Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a Dapper class that will handle reading from and writing to SQLite in a simple manner.
+
+### Dependency Injection Setup
+
+The homework from Lesson 44, Dependency Injection Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to design a way that the choice of which database type to use can be set in the appsettings.json file of each UI.
