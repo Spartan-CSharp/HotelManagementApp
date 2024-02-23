@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spGuests_InsertGuest]
-	@firstName nvarchar(50),
-	@lastName nvarchar(50)
+	@firstName NVARCHAR(50),
+	@lastName NVARCHAR(50)
 AS
 BEGIN
 	SET NOCOUNT ON;
@@ -13,5 +13,5 @@ BEGIN
 
 	SELECT TOP 1 [Id], [FirstName], [LastName]
 	FROM [dbo].[Guests]
-	WHERE [FirstName] = @firstName AND [LastName] = @lastName
+	WHERE [FirstName] = @firstName AND [LastName] = @lastName;
 END

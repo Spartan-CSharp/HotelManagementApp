@@ -76,7 +76,7 @@ namespace HotelAppLibrary.Data
 			return _db.LoadData<RoomTypeModel, dynamic>("dbo.spRoomTypes_GetById",
 									  new { id },
 									  connectionStringName,
-									  true).First();
+									  true).FirstOrDefault();
 		}
 	}
 }

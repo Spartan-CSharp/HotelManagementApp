@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spRoomTypes_GetAvailableTypes]
-	@startDate date,
-	@endDate date
+	@startDate DATE,
+	@endDate DATE
 AS
 BEGIN
 	SET NOCOUNT ON;

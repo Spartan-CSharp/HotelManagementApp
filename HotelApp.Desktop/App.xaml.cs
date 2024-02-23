@@ -30,7 +30,7 @@ namespace HotelApp.Desktop
 			services.AddTransient<MainWindow>();
 			services.AddTransient<CheckInForm>();
 			services.AddTransient<ISqlDataAccess, SqlDataAccess>();
-			services.AddTransient<IDatabaseData, SqlData>();
+			services.AddTransient<ISqliteDataAccess, SqliteDataAccess>();
 
 			var builder = new ConfigurationBuilder()
 				.SetBasePath(Directory.GetCurrentDirectory())

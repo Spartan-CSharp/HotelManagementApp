@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spBookings_CheckIn]
-	@Id int
+	@Id INT
 AS
 BEGIN
 	SET NOCOUNT ON;

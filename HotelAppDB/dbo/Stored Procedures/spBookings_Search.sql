@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spBookings_Search]
-	@lastName nvarchar(50),
-	@startDate date
+	@lastName NVARCHAR(50),
+	@startDate DATE
 AS
 BEGIN
 	SET NOCOUNT ON;

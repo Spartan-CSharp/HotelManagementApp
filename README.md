@@ -166,3 +166,9 @@ The homework from Lesson 47, Search for Bookings, of Module 9, Hotel Management 
 ### Check In
 
 The homework from Lesson 48, Check In, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that checks a guest into a room. Add supporting classes and models as necessary.
+
+### Wrap Up
+
+## Conclusion
+
+### Section Wrap Up
