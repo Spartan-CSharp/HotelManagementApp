@@ -110,3 +110,13 @@ The homework from Lesson 32, Search Form, of Module 9, Hotel Management App, of 
 ### Check In Form
 
 The homework from Lesson 33, Check In Form, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a check in form that displays the booking details and allows the user to check in the guest. Wire it up to the class library.
+
+### Wrap Up
+
+## SQLite Database Design
+
+### Introduction
+
+### Room Types Table
+
+The homework from Lesson 36, Room Types Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a table that holds the room types.
