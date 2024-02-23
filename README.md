@@ -92,3 +92,13 @@ The homework from Lesson 27, Room Search Page, of Module 9, Hotel Management App
 ### Book Room Page
 
 The homework from Lesson 28, Book Room Page, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a page that will allow the user to book a specific room type. Wire it up to the class library.
+
+### Wrap Up
+
+## WPF Core Design
+
+### Introduction
+
+### Project Creation
+
+The homework from Lesson 31, Project Creation, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a WPF project in our current solution. Add in the ability to use dependency injection.
