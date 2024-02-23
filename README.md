@@ -136,3 +136,13 @@ The homework from Lesson 39, Guests Table, of Module 9, Hotel Management App, of
 ### Starter Data
 
 The homework from Lesson 40, Starter Data, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to insert some starter data into our database, so that we have something to test against.
+
+### Wrap Up
+
+## SQLite Data Access Layer
+
+### Introduction
+
+### Dapper Setup
+
+The homework from Lesson 43, Dapper Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a Dapper class that will handle reading from and writing to SQLite in a simple manner.
