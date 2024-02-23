@@ -106,3 +106,7 @@ The homework from Lesson 31, Project Creation, of Module 9, Hotel Management App
 ### Search Form
 
 The homework from Lesson 32, Search Form, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a form that allows the user to search for bookings. Display the bookings on the page. Wire this up to the class library.
+
+### Check In Form
+
+The homework from Lesson 33, Check In Form, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a check in form that displays the booking details and allows the user to check in the guest. Wire it up to the class library.
