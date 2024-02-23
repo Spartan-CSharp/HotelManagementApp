@@ -88,3 +88,7 @@ The homework from Lesson 26, Project Creation, of Module 9, Hotel Management App
 ### Room Search Page
 
 The homework from Lesson 27, Room Search Page, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a page that will allow the user to search for and see the available room types. Wire it up to the class library.
+
+### Book Room Page
+
+The homework from Lesson 28, Book Room Page, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a page that will allow the user to book a specific room type. Wire it up to the class library.
