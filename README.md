@@ -158,3 +158,7 @@ The homework from Lesson 45, Get Available Rooms, of Module 9, Hotel Management 
 ### Book Guest
 
 The homework from Lesson 46, Book Guest, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that books a guest into a room. Add supporting classes and models as necessary.
+
+### Search for Bookings
+
+THe homework from Lesson 47, Search for Bookings, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that searches the bookings for a set of entries. Add supporting classes and models as necessary.

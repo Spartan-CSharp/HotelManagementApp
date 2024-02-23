@@ -106,12 +106,37 @@ namespace HotelAppLibrary.Data
 
 		public RoomTypeModel GetRoomTypeById(int id)
 		{
-			throw new NotImplementedException();
+			string sql = @"SELECT [Id], [Title], [Description], [Price]
+						FROM [RoomTypes]
+						WHERE [Id] = @id;";
+
+			return _db.LoadData<RoomTypeModel, dynamic>(sql,
+									  new { id },
+									  connectionStringName).FirstOrDefault();
 		}
 
 		public List<BookingFullModel> SearchBookings(string lastName)
 		{
-			throw new NotImplementedException();
+			string sql = @"SELECT [b].[Id], [b].[RoomId], [b].[GuestId], [b].[StartDate], [b].[EndDate],
+							[b].[CheckedIn], [b].[TotalCost], [g].[FirstName], [g].[LastName],
+							[r].[RoomNumber], [r].[RoomTypeId], [rt].[Title], [rt].[Description],
+							[rt].[Price]
+						FROM [Bookings] AS b
+						INNER JOIN [Guests] AS g ON b.[GuestId] = g.[Id]
+						INNER JOIN [Rooms] AS r ON b.[RoomId] = r.[Id]
+						INNER JOIN [RoomTypes] AS rt ON r.[RoomTypeId] = rt.[Id]
+						WHERE b.[StartDate] = @startDate AND g.[LastName] = @lastName;";
+
+			var output = _db.LoadData<BookingFullModel, dynamic>(sql,
+										new { lastName = lastName, startDate = DateTime.Now.Date },
+										connectionStringName);
+
+			output.ForEach(x => {
+				x.Price = x.Price / 100;
+				x.TotalCost = x.TotalCost / 100;
+			});
+
+			return output;
 		}
 	}
 }
