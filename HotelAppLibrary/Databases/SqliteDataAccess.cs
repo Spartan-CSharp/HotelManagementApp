@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
-using System.Text;
 
 using Dapper;
 
@@ -37,7 +35,7 @@ namespace HotelAppLibrary.Databases
 
 			using ( IDbConnection connection = new SQLiteConnection(connectionString) )
 			{
-				connection.Execute(sqlStatement, parameters);
+				_ = connection.Execute(sqlStatement, parameters);
 			}
 		}
 	}

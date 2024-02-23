@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
 
 using HotelAppLibrary.Data;
@@ -26,37 +20,37 @@ namespace HotelApp.Desktop
 		{
 			base.OnStartup(e);
 
-			var services = new ServiceCollection();
-			services.AddTransient<MainWindow>();
-			services.AddTransient<CheckInForm>();
-			services.AddTransient<ISqlDataAccess, SqlDataAccess>();
-			services.AddTransient<ISqliteDataAccess, SqliteDataAccess>();
+			ServiceCollection services = new ServiceCollection();
+			_ = services.AddTransient<MainWindow>();
+			_ = services.AddTransient<CheckInForm>();
+			_ = services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+			_ = services.AddTransient<ISqliteDataAccess, SqliteDataAccess>();
 
-			var builder = new ConfigurationBuilder()
+			IConfigurationBuilder builder = new ConfigurationBuilder()
 				.SetBasePath(Directory.GetCurrentDirectory())
 				.AddJsonFile("appsettings.json");
 
 			IConfiguration config = builder.Build();
 
-			services.AddSingleton(config);
+			_ = services.AddSingleton(config);
 
 			string dbChoice = config.GetValue<string>("DatabaseChoice").ToLower();
 			if ( dbChoice == "sql" )
 			{
-				services.AddTransient<IDatabaseData, SqlData>();
+				_ = services.AddTransient<IDatabaseData, SqlData>();
 			}
 			else if ( dbChoice == "sqlite" )
 			{
-				services.AddTransient<IDatabaseData, SqliteData>();
+				_ = services.AddTransient<IDatabaseData, SqliteData>();
 			}
 			else
 			{
 				// Fallback / Default value
-				services.AddTransient<IDatabaseData, SqlData>();
+				_ = services.AddTransient<IDatabaseData, SqlData>();
 			}
 
 			serviceProvider = services.BuildServiceProvider();
-			var mainWindow = serviceProvider.GetService<MainWindow>();
+			MainWindow mainWindow = serviceProvider.GetService<MainWindow>();
 
 			mainWindow.Show();
 		}

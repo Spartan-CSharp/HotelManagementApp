@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 using HotelAppLibrary.Databases;
 using HotelAppLibrary.Models;
@@ -69,8 +68,8 @@ namespace HotelAppLibrary.Data
 			 {
 				 roomId = availableRooms.First().Id,
 				 guestId = guest.Id,
-				 startDate = startDate,
-				 endDate = endDate,
+				 startDate,
+				 endDate,
 				 totalCost = timeStaying.Days * roomType.Price
 			 },
 			 connectionStringName);
@@ -99,11 +98,11 @@ namespace HotelAppLibrary.Data
 						)
 						GROUP BY t.[Id], t.[Title], t.[Description], t.[Price];";
 
-			var output = _db.LoadData<RoomTypeModel, dynamic>(sql,
+			List<RoomTypeModel> output = _db.LoadData<RoomTypeModel, dynamic>(sql,
 									  new { startDate, endDate },
 									  connectionStringName);
 
-			output.ForEach(x => x.Price = x.Price / 100);
+			output.ForEach(x => x.Price /= 100);
 
 			return output;
 		}
@@ -131,13 +130,14 @@ namespace HotelAppLibrary.Data
 						INNER JOIN [RoomTypes] AS rt ON r.[RoomTypeId] = rt.[Id]
 						WHERE b.[StartDate] = @startDate AND g.[LastName] = @lastName;";
 
-			var output = _db.LoadData<BookingFullModel, dynamic>(sql,
-										new { lastName = lastName, startDate = DateTime.Now.Date },
+			List<BookingFullModel> output = _db.LoadData<BookingFullModel, dynamic>(sql,
+										new { lastName, startDate = DateTime.Now.Date },
 										connectionStringName);
 
-			output.ForEach(x => {
-				x.Price = x.Price / 100;
-				x.TotalCost = x.TotalCost / 100;
+			output.ForEach(x =>
+			{
+				x.Price /= 100;
+				x.TotalCost /= 100;
 			});
 
 			return output;

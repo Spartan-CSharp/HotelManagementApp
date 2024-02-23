@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics;
 using System.Linq;
-using System.Text;
 
 using Dapper;
 
@@ -50,7 +47,7 @@ namespace HotelAppLibrary.Databases
 
 			using ( IDbConnection connection = new SqlConnection(connectionString) )
 			{
-				connection.Execute(sqlStatement, parameters, commandType: commandType);
+				_ = connection.Execute(sqlStatement, parameters, commandType: commandType);
 			}
 		}
 	}
