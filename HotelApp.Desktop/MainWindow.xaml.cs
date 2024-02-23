@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using HotelAppLibrary.Data;
+using HotelAppLibrary.Models;
 
 namespace HotelApp.Desktop
 {
@@ -26,9 +27,14 @@ namespace HotelApp.Desktop
 
 		public MainWindow(IDatabaseData db)
 		{
-		{
 			InitializeComponent();
 			_db = db;
+		}
+
+		private void SearchForguest_Click(object sender, RoutedEventArgs e)
+		{
+			List<BookingFullModel> bookings = _db.SearchBookings(lastNameText.Text);
+			resultsList.ItemsSource = bookings;
 		}
 	}
 }

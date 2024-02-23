@@ -102,3 +102,7 @@ The homework from Lesson 28, Book Room Page, of Module 9, Hotel Management App, 
 ### Project Creation
 
 The homework from Lesson 31, Project Creation, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a WPF project in our current solution. Add in the ability to use dependency injection.
+
+### Search Form
+
+The homework from Lesson 32, Search Form, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a form that allows the user to search for bookings. Display the bookings on the page. Wire this up to the class library.
