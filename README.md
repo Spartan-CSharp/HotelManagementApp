@@ -154,3 +154,7 @@ The homework from Lesson 44, Dependency Injection Setup, of Module 9, Hotel Mana
 ### Get Available Rooms
 
 The homework from Lesson 45, Get Available Rooms, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that gets the available rooms. Add supporting classes and models as necessary.
+
+### Book Guest
+
+The homework from Lesson 46, Book Guest, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that books a guest into a room. Add supporting classes and models as necessary.
