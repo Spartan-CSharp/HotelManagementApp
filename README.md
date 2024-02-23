@@ -2,7 +2,18 @@
 The homework from Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We have been commissioned to create a hotel management application. We need a web portal that allows people to book an available room. We also need a desktop app for when they check in.
 We need to create a minimum viable product (MVP) that will allow the customer to get going and to identify what features should be added later.
 
+## Introduction
+
+### Course Overview
+
+### The App Idea
+
+We have been commissioned to create a hotel management application. We need a web portal that allows people to book an available room. We also need a desktop app for when they check in.
+We need to create a minimum viable product (MVP) that will allow the customer to get going and to identify what features should be added later.
+
 ## Planning
+
+### Introduction
 
 ### W Step
 The homework from Lesson 4, W Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to walk through the application and pull out the important bits of information. Fully understand what needs to be accomplished.
@@ -19,7 +30,11 @@ The homework from Lesson 7, L Step, of Module 9, Hotel Management App, of the Co
 ### D Step
 The homework from Lesson 8, D Step, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to lay out the data into groups that will eventually become tables and models. Identify the data relationships and where pieces of data go.
 
+### Wrap Up
+
 ## SQL Database Design
+
+### Introduction
 
 ### Room Type Table
 The homework from Lesson 11, Room Type Table, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create the table that holds the room types.
@@ -36,7 +51,11 @@ The homework from Lesson 14, Bookings Table, of Module 9, Hotel Management App, 
 ### Starter Data
 The homework from Lesson 15, Starter Data, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a script that will insert some starter data into our database, so that we have something to test against.
 
+### Wrap Up
+
 ## SQL Data Access Layer
+
+### Introduction
 
 ### Class Library Setup
 The homework from Lesson 18, Class Library Setup, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create a class library and solution for our new project. Put together a simple folder structure for the classes we will be adding.
@@ -55,3 +74,13 @@ The homework from Lesson 22, Search for Booking, of Module 9, Hotel Management A
 
 ### Check In
 The homework from Lesson 23, Check In, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that checks a guest into a room. Add supporting classes and models as necessary.
+
+### Wrap Up
+
+## ASP.NET Core Razor Pages Design
+
+### Introduction
+
+### Project Creation
+
+The homework from Lesson 26, Project Creation, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to create an ASP.NET Core Razor Pages web application in our current solution.
