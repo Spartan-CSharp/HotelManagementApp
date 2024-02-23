@@ -46,3 +46,6 @@ The homework from Lesson 19, Dapper Setup, of Module 9, Hotel Management App, of
 
 ### Get Available Rooms
 The homework from Lesson 20, Get Available Rooms, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that gets the available rooms. Add supporting classes and models as necessary.
+
+### Book Guest
+The homework from Lesson 21, Book Guest, of Module 9, Hotel Management App, of the Complete Foundation in C# Course Series from Tim Corey. We are to add a method that books a guest into a room. Add supporting classes and models as necessary.
